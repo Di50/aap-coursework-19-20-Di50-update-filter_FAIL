@@ -18,6 +18,8 @@
 //==============================================================================
 /**
 */
+class LFdspDistortion  : public AudioProcessor //, //declare the dsp as class (??)
+
 class SpectralDistortionAudioProcessor  : public AudioProcessor,
     public AudioProcessorValueTreeState::Listener        //declares Listener (to the broadcast of controls used in editor) -> processor will inherit from the AudioProcessorValueTreeState::Listener     
 {
